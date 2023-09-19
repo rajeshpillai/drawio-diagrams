@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T14:34:38.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" version="21.7.5" etag="vqwJe5IsfjSClGzJqIZC" type="github">
-  <diagram name="Page-1" id="pQJgPqyZb_h770RjejM-">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-09-19T14:48:53.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="F5s4s84Q_rCT9bPc5Kab" version="21.7.5" type="github">
+  <diagram name="access-refresh token" id="pQJgPqyZb_h770RjejM-">
+    <mxGraphModel dx="872" dy="491" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h4teDa3cKoILqUaAFO-s-1" value="&lt;h1&gt;JWT (Access Token + Refresh Token)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-6" value="Login (credentials)" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;flowAnimation=1;fontSize=13;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-5">
+          <mxGeometry x="0.0337" relative="1" as="geometry">
+            <mxPoint x="169" y="207.4" as="sourcePoint" />
+            <mxPoint x="495.5" y="207.00000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="137.5" y="207" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-12" value="Request with Access Token" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-5">
+          <mxGeometry x="0.0647" y="5" relative="1" as="geometry">
+            <mxPoint x="172" y="293" as="sourcePoint" />
+            <mxPoint x="502" y="293" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-14" value="Request with Expired Access Token" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-5">
+          <mxGeometry x="0.0842" y="5" relative="1" as="geometry">
+            <mxPoint x="172" y="376" as="sourcePoint" />
+            <mxPoint x="501.5" y="376.3620000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-17" value="Request new Access Token (Using Refresh Token)" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0.54;entryY=0.834;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" source="h4teDa3cKoILqUaAFO-s-4" target="h4teDa3cKoILqUaAFO-s-5">
+          <mxGeometry x="0.0586" y="12" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-4" value="CLIENT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="147" width="100" height="373" as="geometry" />
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-7" value="{AccessToken, RefreshToken}" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;flowAnimation=1;fontSize=13;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-4">
+          <mxGeometry x="0.0355" y="-3" relative="1" as="geometry">
+            <mxPoint x="582.5" y="293" as="sourcePoint" />
+            <mxPoint x="215" y="255" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="626.5" y="255" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-13" value="Valid Response" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581.5" y="333.4" as="sourcePoint" />
+            <mxPoint x="251" y="333.001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-15" value="Token Expired" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" target="h4teDa3cKoILqUaAFO-s-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.5" y="411.37" as="sourcePoint" />
+            <mxPoint x="256" y="410.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-18" value="{New Access Token, New Refresh Token}" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0.5;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;flowAnimation=1;" edge="1" parent="1" source="h4teDa3cKoILqUaAFO-s-5" target="h4teDa3cKoILqUaAFO-s-4">
+          <mxGeometry x="0.0009" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-5" value="SERVER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="532" y="151" width="100" height="374" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
