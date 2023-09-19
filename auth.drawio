@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T14:48:53.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="F5s4s84Q_rCT9bPc5Kab" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T14:51:26.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="UQBa5JeJxhaxvV6HklXP" version="21.7.5" type="github">
   <diagram name="access-refresh token" id="pQJgPqyZb_h770RjejM-">
     <mxGraphModel dx="872" dy="491" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,6 +68,14 @@
         </mxCell>
         <mxCell id="h4teDa3cKoILqUaAFO-s-5" value="SERVER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="532" y="151" width="100" height="374" as="geometry" />
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4teDa3cKoILqUaAFO-s-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4teDa3cKoILqUaAFO-s-19" value="NOTE:&amp;nbsp; Whether to send a new Refresh token or send existing one is on implementation as both approach may have its pros and cosn." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#F4FF59;gradientColor=none;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="628" y="394" width="190" height="114" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
