@@ -1,17 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T04:22:24.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="L00M4025TK0_tnH1dtEI" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T04:23:37.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="s-jmKiwogD_4fO8_Btri" version="21.7.5" type="github">
   <diagram name="Page-1" id="Si3TmL1HpiABUJQwDJJA">
     <mxGraphModel dx="872" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-1" value="RAJESH PILLAI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#c4a6a6;" vertex="1" parent="1">
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-1" value="RAJESH PILLAI" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="120" y="10" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eLfbE6LILlzCmEPhJ3s3-2" target="eLfbE6LILlzCmEPhJ3s3-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="eLfbE6LILlzCmEPhJ3s3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="32" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-2" value="CONCEPT DIAGRAMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#5266AA;" vertex="1" parent="1">
-          <mxGeometry x="270" y="17" width="170" height="30" as="geometry" />
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-2" value="CONCEPT DIAGRAMS" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="17" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-3" value="How React works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="17" width="240" height="30" as="geometry" />
@@ -108,7 +110,7 @@
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eLfbE6LILlzCmEPhJ3s3-34" target="eLfbE6LILlzCmEPhJ3s3-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-34" value="Commit Phase" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-34" value="Commit Phase" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="135" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-36" value="Time Slicing" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -166,7 +168,7 @@
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-48" value="RequestIdleCallback" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="370" width="125" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-49" value="Double Buffering" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-49" value="Double Buffering" style="whiteSpace=wrap;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="470" width="125" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-50" value="Virtual DOM" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
