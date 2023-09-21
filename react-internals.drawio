@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T04:27:52.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="U9SucFleHBUgzWjxEtrB" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T04:28:59.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="wqiHnytwbqT0ZIZ7ndOV" version="21.7.5" type="github">
   <diagram name="Page-1" id="Si3TmL1HpiABUJQwDJJA">
     <mxGraphModel dx="872" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="335" y="310" width="505" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-1" value="RAJESH PILLAI" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="10" width="170" height="40" as="geometry" />
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-1" value="RAJESH PILLAI" style="text;html=1;strokeColor=#666B73;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="15" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="eLfbE6LILlzCmEPhJ3s3-2">
           <mxGeometry relative="1" as="geometry">
@@ -24,7 +24,7 @@
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-2" value="CONCEPT DIAGRAMS" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="15" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eLfbE6LILlzCmEPhJ3s3-3" value="How React works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+        <mxCell id="eLfbE6LILlzCmEPhJ3s3-3" value="How React works" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="17" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eLfbE6LILlzCmEPhJ3s3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eLfbE6LILlzCmEPhJ3s3-5" target="eLfbE6LILlzCmEPhJ3s3-7">
