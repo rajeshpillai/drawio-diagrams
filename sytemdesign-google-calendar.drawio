@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T13:49:25.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="l5MwXPfoGg88G-VWmVvw" version="21.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-23T13:50:56.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="qz-7jKSG2oCuv0WmpYoO" version="21.8.0" type="github" pages="3">
   <diagram name="High Level" id="ygKmvQy7IcpZ4q00hGml">
     <mxGraphModel dx="1087" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
         <mxCell id="tlTXWQXUGlHPP5C4121O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTXWQXUGlHPP5C4121O-4" target="tlTXWQXUGlHPP5C4121O-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tlTXWQXUGlHPP5C4121O-4" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
+        <mxCell id="tlTXWQXUGlHPP5C4121O-4" value="Node 1" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
           <mxGeometry x="271.5" y="200" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="tlTXWQXUGlHPP5C4121O-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tlTXWQXUGlHPP5C4121O-5" target="tlTXWQXUGlHPP5C4121O-11">
@@ -186,7 +186,7 @@
         <mxCell id="tlTXWQXUGlHPP5C4121O-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tlTXWQXUGlHPP5C4121O-5" target="tlTXWQXUGlHPP5C4121O-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tlTXWQXUGlHPP5C4121O-5" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
+        <mxCell id="tlTXWQXUGlHPP5C4121O-5" value="Node 2" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
           <mxGeometry x="621.5" y="200" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="tlTXWQXUGlHPP5C4121O-6" value="Container" style="image;html=1;image=img/lib/clip_art/computers/Virtual_Machine_128x128.png" vertex="1" parent="1">
@@ -224,6 +224,9 @@
         </mxCell>
         <mxCell id="tlTXWQXUGlHPP5C4121O-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.763;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tlTXWQXUGlHPP5C4121O-5" target="tlTXWQXUGlHPP5C4121O-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTXWQXUGlHPP5C4121O-25" value="Simple Deployment Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="68.5" y="50" width="268" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
