@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T03:55:59.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="Nc6AlrZMQodhXNKPFBGT" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T04:21:49.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="AVkAH3ExWdEXyhCWGdNE" version="22.0.0" type="github">
   <diagram name="Page-1" id="nsQ6WgNkk12vu_NQeNwi">
     <mxGraphModel dx="870" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="70" y="40" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mWMvBwkmk5nRccj0nMHB-5" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;align=left;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="70" y="90" width="155" height="380" as="geometry" />
+          <mxGeometry x="70" y="90" width="155" height="310" as="geometry" />
         </mxCell>
         <mxCell id="mWMvBwkmk5nRccj0nMHB-6" value="Chat History" style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="mWMvBwkmk5nRccj0nMHB-5">
           <mxGeometry x="5" width="115" height="30" as="geometry" />
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="mWMvBwkmk5nRccj0nMHB-17" value="en" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mWMvBwkmk5nRccj0nMHB-18" value="OPEN API KEY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
